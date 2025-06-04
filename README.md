@@ -57,6 +57,7 @@
 - In jedem Kit-Ordner liegen bis zu 8 `.wav`-Dateien  
 - Beim Laden eines Kits werden die ersten 8 `.wav`-Dateien alphabetisch gelesen; weniger als 8 werden mit stummen Platzhaltern vervollständigt.  
 - Beispielstruktur:
+```
 samples/
 ├── HouseKit/
 │ ├── kick.wav
@@ -71,6 +72,7 @@ samples/
 ├── conga.wav
 ├── cowbell.wav
 └── …
+```
 - GUI-Labels der einzelnen Zeilen entsprechen dem Dateinamen (ohne `.wav`).
 
 ### Patterns (Sequenzen)
